@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/*
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+*/
+
+.noElement {
+    display: none;
+    text-align: left;
+    padding: 10px;
+    width: 400px;
+}
+
+.header {
+    width: 97%;
+    min-height: 100px;
+    max-width: 1530px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #d46996;
+    box-shadow: 0 5px 10px #08a05c50;
+    color: #6e3b64;
+}
+.header h1 {
+    color: #6e3b64;
+}
+
+a {
+    color: #6e3b64;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+/*
+.exercises {
+    background-color: #686de0;
+    padding: 5rem 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem 2rem;
+    box-sizing: border-box;
+    box-shadow: 1px 10px 10px 2px rgba(26, 8, 8, 0.1);
+    border: 6px solid transparent;
+    grid-column-gap: 34px;
+    grid-row-gap: 23px;
+    width: 97%;
+}
+*/
+.footer {
+    font-size: 3rem;
+    color: black;
+}
+
+.grid {
+    padding: 5rem 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem 2rem;
+    box-sizing: border-box;
+}
+
+.grid .exercises-table {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 10px 10px 2px rgba(26, 8, 8, 0.1);
+    border: 6px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.grid .filter {
+    display: none;
+}
+
+.exercises-table:hover {
+    border: 6px solid #08a05c55;
+}
+
+.exercises h2 {
+    text-align: center;
+    font-size: 1rem;
+    color: #6e3b64;
+}
+
+.footer h3 {
+    color: #6e3b64;
+    font-size: 2rem;
+    text-align: center;
+}
+.footer p {
+    color: grey;
+    font-size: 1rem;
+    text-align: center;
+}
