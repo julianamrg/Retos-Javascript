@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+
+.search .input {
+    border: 0;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    transition: width 0.5s;
+}
+
+.btn {
+    border: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background-color: white;
+}
+
+.btn:focus {
+    background-color: lightgrey;
+}
+
+.input:focus {
+    background-color: lightgrey;
+}
+
+.search.active .input {
+    transform: translateX(0%);
+    width: 0%;
+    padding: 0;
+    transition: width 0.5s;
+}
+
+.search.active .btn {
+}
